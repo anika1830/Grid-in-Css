@@ -1,0 +1,11 @@
+Ques 5:- Explain the difference between justify-items and justify-self using code examples.
+Ans 5:-Justify-content is flexbox specific and applied to a flex container. You declare how the
+ flex items within that container will be aligned along the main axis.
+Justify items is applied to a container and has the below effects:
+In block-level layouts, it aligns the items inside their containing block on the inline axis.
+For absolutely-positioned elements, it aligns the items inside their containing block on
+the inline axis, accounting for the offset values of top, left, bottom, and right.
+In table cell layouts, this property is ignored
+In flexbox layouts, this property is ignored
+In grid layouts, it aligns the items inside their grid areas on the inline axis
+Justify self removes the item justifying itself from the default of its container(see above).
